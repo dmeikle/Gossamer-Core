@@ -1,0 +1,31 @@
+{
+  "name": "gossamer/core",
+  "type": "library",
+  "description": "php couchbase nosql database entity manager",
+  "keywords": ["php","database","entity manager", "nosql","couchbase"],
+  "homepage": "https://github.com/dmeikle/gossamer-core",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dave Meikle",
+      "email": "david@quantumunit.com",
+      "homepage": "http://www.quantumunit.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "monolog/monolog": "1.2.*",
+    "gossamer/horus": "1.1.*",
+    "gossamer/neith": "1.1.*",
+    "gossamer/set": "1.1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Gossamer\\Core": "src/"
+    }
+  }
+}
