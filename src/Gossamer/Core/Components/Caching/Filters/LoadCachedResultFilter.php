@@ -27,7 +27,7 @@ use Gossamer\Horus\Http\HttpInterface;
 
 class LoadCachedResultFilter extends AbstractFilter
 {
-    use \Core\Configuration\Traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\Traits\LoadConfigurationTrait;
 
     /**
      * @param HttpInterface $request
