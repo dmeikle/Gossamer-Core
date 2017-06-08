@@ -15,7 +15,7 @@
  * Time: 9:27 PM
  */
 
-namespace core\commandfactory;
+namespace Gossamer\Core\Commandfactory;
 
 
 

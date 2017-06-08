@@ -15,17 +15,17 @@
  * Time: 12:24 AM
  */
 
-namespace core\commandfactory;
+namespace Gossamer\Core\Commandfactory;
 
 
-use core\http\HttpRequest;
-use core\http\HttpResponse;
-use core\mvc\exceptions\HandlerNotCallableException;
+use Gossamer\Core\Http\HttpRequest;
+use Gossamer\Core\Http\HttpResponse;
+use Gossamer\Core\MVC\exceptions\HandlerNotCallableException;
 use Gossamer\Neith\Logging\LoggingInterface;
 
 /**
  * Class AbstractComponent
- * @package core\commandfactory
+ * @package Gossamer\Core\Commandfactory
  *
  * This class is intended for the DBKernel to use. We only have one type of view (JSON Response) and this
  * Kernel is only intended to handle requests to the database - not a lot of requirements for an MVC

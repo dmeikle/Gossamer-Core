@@ -105,7 +105,7 @@ abstract class AbstractComponent
             $controller = new $this->controllerName($model, $view, $this->logger, $httpRequest, $httpResponse);
             $controller->setContainer($this->container);
 
-            if (array_key_exists('core\components\security\traits\GetLoggedInMemberTrait', class_uses($controller))) {
+            if (array_key_exists('Gossamer\Core\Components\security\traits\GetLoggedInMemberTrait', class_uses($controller))) {
                 $controller->setHttpRequest($httpRequest);
             }
 

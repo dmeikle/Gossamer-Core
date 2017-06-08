@@ -15,9 +15,9 @@
  * Time: 9:14 PM
  */
 
-namespace core\commandfactory;
+namespace Gossamer\Core\Commandfactory;
 
-use core\commandfactory\AbstractCommand;
+use Gossamer\Core\Commandfactory\AbstractCommand;
 
 class ListCommand extends AbstractCommand
 {

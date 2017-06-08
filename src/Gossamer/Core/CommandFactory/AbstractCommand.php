@@ -18,8 +18,8 @@
 namespace Gossamer\Core\CommandFactory;
 
 
-use core\http\HttpRequest;
-use core\http\HttpResponse;
+use Gossamer\Core\Http\HttpRequest;
+use Gossamer\Core\Http\HttpResponse;
 use Gossamer\Neith\Logging\LoggingInterface;
 use Gossamer\Pesedget\Entities\EntityManager;
 

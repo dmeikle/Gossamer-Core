@@ -31,7 +31,7 @@ class CookieManager {
 
     private $httpRequest;
 
-    use \core\configuration\traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\traits\LoadConfigurationTrait;
 
     public function __construct(HttpRequest &$request) {
         $this->httpRequest = $request;

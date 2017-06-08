@@ -37,7 +37,7 @@ use Gossamer\Set\Utils\Container;
  * eg:
  *
  * authentication_manager:
- * handler: 'core\components\security\core\AuthenticationManager'
+ * handler: 'Gossamer\Core\Components\security\Gossamer\CoreAuthenticationManager'
  * 'arguments':
  * - '@user_authentication_provider'
  * #the '@' sign means it's a service already configured.
@@ -49,7 +49,7 @@ use Gossamer\Set\Utils\Container;
  * eg:
  *
  * user_authentication_provider:
- * handler: 'core\components\security\providers\UserAuthenticationProvider'
+ * handler: 'Gossamer\Core\Components\security\providers\UserAuthenticationProvider'
  * datasource: datasource3
  *
  * the services manager will create the UserAuthenticationProvider and pass in
@@ -63,7 +63,7 @@ use Gossamer\Set\Utils\Container;
  * provider inside the services.yml file
  *
  * simple_auth:
- * 'handler': 'core\components\security\handlers\AuthenticationHandler'
+ * 'handler': 'Gossamer\Core\Components\security\handlers\AuthenticationHandler'
  * #3 is the local db conn wrapped in a connection adapter
  * 'datasource': 'datasource3'
  * 'arguments':
@@ -92,7 +92,7 @@ use Gossamer\Set\Utils\Container;
 class AuthenticationHandler extends \Gossamer\Ra\Security\Handlers\AuthenticationHandler implements ParametersInterface
 {
 
-    use \core\configuration\traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\traits\LoadConfigurationTrait;
 
 
 

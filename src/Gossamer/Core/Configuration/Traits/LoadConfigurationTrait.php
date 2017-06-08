@@ -25,7 +25,7 @@ trait LoadConfigurationTrait
 
 
     protected function loadConfig($configPath) {
-        $loader = new \core\configuration\YamlLoader();
+        $loader = new \Gossamer\Core\Configuration\YamlLoader();
         $loader->setFilePath($configPath);
 
         $config = $loader->loadConfig();
