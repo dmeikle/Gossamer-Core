@@ -26,6 +26,7 @@ use Monolog\Logger;
 abstract class AbstractListener extends \Gossamer\Horus\EventListeners\AbstractListener
 {
 
+    use \Gossamer\Set\Utils\ContainerTrait;
 
     protected $httpRequest;
 
