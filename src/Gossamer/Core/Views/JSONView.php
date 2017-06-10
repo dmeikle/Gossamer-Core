@@ -18,7 +18,7 @@
 namespace Gossamer\Core\Views;
 
 
-use Core\MVC\AbstractView;
+use Gossamer\Core\MVC\AbstractView;
 
 class JSONView extends AbstractView
 {
