@@ -92,7 +92,7 @@ use Gossamer\Set\Utils\Container;
 class AuthenticationHandler extends \Gossamer\Ra\Security\Handlers\AuthenticationHandler implements ParametersInterface
 {
 
-    use \Gossamer\Core\Configuration\traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\Traits\LoadConfigurationTrait;
 
 
 

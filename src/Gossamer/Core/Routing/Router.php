@@ -27,7 +27,7 @@ use Gossamer\Pesedget\Extensions\Couchbase\Exceptions\ConfigurationNotFoundExcep
 
 class Router
 {
-    use \Gossamer\Core\Routing\Traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\Traits\LoadConfigurationTrait;
     use \Gossamer\Core\Routing\Traits\FilenameSanitizer;
     
     protected $logger = null;

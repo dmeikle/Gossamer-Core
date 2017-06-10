@@ -25,7 +25,7 @@ use Gossamer\Horus\EventListeners\Event;
 class WriteResultToCacheListener extends AbstractListener
 {
 
-    use \Gossamer\Core\Configuration\traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\Traits\LoadConfigurationTrait;
 
 
     public function on_response_end(Event $event) {

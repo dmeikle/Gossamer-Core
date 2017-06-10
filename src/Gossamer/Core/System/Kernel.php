@@ -27,7 +27,7 @@ use Gossamer\Set\Utils\Container;
 
 class Kernel
 {
-    use \Gossamer\Core\Configuration\traits\LoadConfigurationTrait;
+    use \Gossamer\Core\Configuration\Traits\LoadConfigurationTrait;
     
     private $container;
 
