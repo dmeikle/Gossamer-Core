@@ -15,7 +15,7 @@
  * Time: 10:41 PM
  */
 
-namespace Gossamer\Core\Routing\Routing;
+namespace Gossamer\Core\Routing;
 
 
 use Gossamer\Core\Http\HttpRequest;
