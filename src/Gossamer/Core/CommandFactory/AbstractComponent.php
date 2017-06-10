@@ -15,7 +15,7 @@
  * Time: 12:24 AM
  */
 
-namespace Gossamer\Core\Commandfactory;
+namespace Gossamer\Core\CommandFactory;
 
 
 use Gossamer\Core\Http\HttpRequest;
@@ -25,7 +25,7 @@ use Gossamer\Neith\Logging\LoggingInterface;
 
 /**
  * Class AbstractComponent
- * @package Gossamer\Core\Commandfactory
+ * @package Gossamer\Core\CommandFactory
  *
  * This class is intended for the DBKernel to use. We only have one type of view (JSON Response) and this
  * Kernel is only intended to handle requests to the database - not a lot of requirements for an MVC
